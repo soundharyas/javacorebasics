@@ -1,0 +1,21 @@
+package com.Student;
+
+public class StudentDetails {
+	public void PrintStudent(Studentid Studentid) {
+		System.out.println(Studentid);
+	}
+
+	public static void main (String[] args) {
+		Studentid Studentid = new Studentid();
+		Studentid.setFirstName("sound");
+		Studentid.setLastName("arya");
+		
+		StudentDetails studentdetails = new StudentDetails();
+      studentdetails.PrintStudent(Studentid);
+			
+		
+		
+	}
+	
+}
+
