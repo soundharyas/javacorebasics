@@ -1,0 +1,23 @@
+package com.basic;
+
+public class MiniMax {
+	public static void main (String []args)
+	{
+		int a[] = {3,4,5,2,33,24,2};
+		int Mini =a[0];
+		int Max =a[0];
+		for(int i =1;i<a.length;i++) {
+			if(a[i]<Mini) {
+				Mini = a[i];
+		}
+		else if(a[i]>Max){
+			Max = a[i];
+		
+	}
+		}
+	System.out.println("Mini = "+Mini);
+	System.out.println("Max = "+Max);
+
+	}
+}
+
